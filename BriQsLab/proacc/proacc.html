@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invoice Dashboard</title>
+  <link rel="stylesheet" href="proacc.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="sidebar">
+    <h2 class="logo">ProAcc</h2>
+    <ul class="menu">
+  </div>
+
+  <div class="main-content">
+    <div class="header">
+      <h1>Invoices</h1>
+      <button class="create-btn">Create an Invoice ▾</button>
+      <div class="dropdown">
+        <p>Invoice</p>
+        <p>Recurring Invoice</p>
+      </div>
+    </div>
+
+    <div class="stats">
+      <div class="stat-card">$60,400 <span>Overdue amount</span></div>
+      <div class="stat-card">$60,400 <span>Drafted totals</span></div>
+      <div class="stat-card">$60,400 <span>Unpaid totals</span></div>
+      <div class="stat-card">08 days <span>Average paid time</span></div>
+      <div class="stat-card">05 <span>Invoices scheduled</span></div>
+    </div>
+
+    <div class="invoice-table">
+      <input type="text" placeholder="Enter invoice number" class="search-box">
+      <div class="filters">
+        <span>All Invoices (54)</span>
+        <span>Unpaid (14)</span>
+        <span>Draft (3)</span>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Status</th>
+            <th>Date</th>
+            <th>Number</th>
+            <th>Customer</th>
+            <th>Total</th>
+            <th>Amount Due</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="paid">Paid</td>
+            <td>23.05.2023</td>
+            <td>#054</td>
+            <td>Jane Cooper</td>
+            <td>$2800</td>
+            <td>$400</td>
+          </tr>
+          <tr>
+            <td class="paid">Paid</td>
+            <td>23.05.2023</td>
+            <td>#054</td>
+            <td>Esther Howard</td>
+            <td>$2800</td>
+            <td>$400</td>
+          </tr>
+          <tr>
+            <td class="draft">Draft</td>
+            <td>23.05.2023</td>
+            <td>#054</td>
+            <td>Cameron Williamson</td>
+            <td>$2800</td>
+            <td>$400</td>
+          </tr>
+          <tr>
+            <td class="paid">Paid</td>
+            <td>23.05.2023</td>
+            <td>#054</td>
+            <td>Brooklyn Simmons</td>
+            <td>$2800</td>
+            <td>$400</td>
+          </tr>
+          <tr>
+            <td class="overdue">Overdue</td>
+            <td>23.05.2023</td>
+            <td>#054</td>
+            <td>Leslie Alexander</td>
+            <td>$2800</td>
+            <td>$400</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

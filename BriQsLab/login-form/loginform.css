@@ -1,0 +1,49 @@
+body{
+    background-color: gainsboro;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#container {
+    height: 400px;
+    background-color: white;
+    max-width: 30%;
+    margin: auto;
+    box-shadow: 10px 10px 5px rgb(208, 207, 207);
+    margin-top: 100px;
+    border-radius: 5px;
+    padding: 20px
+}
+
+form {
+    margin-left: 30px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+input {
+    background-color:rgb(230, 222, 222);
+    border: 1px solid rgb(216, 202, 202);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+button {
+    background-color:rgb(35, 161, 35);
+    border: none;
+    padding: 20px;
+    width: 92%;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
