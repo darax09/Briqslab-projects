@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <a href="C:\Users\DELL\Documents\JS\BLOG\blog.html" id="left">Home</a>
+    <div id="right">
+        <input type="text" name="" id="search" placeholder="Search">
+        <a href="" id="about">About Us</a>
+    </div>
+    <div id="container">
+        <h1>Welcome to my page</h1>
+    </div><br>
+    <div id="slider">
+        <div id="slide-track">
+            <div id="slide">
+                <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2" />
+            </div>
+            <div id="slide">
+                <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" />
+            </div>
+            <div id="slide">
+                <img src="https://images.unsplash.com/photo-1601050690597-15c9fbd6d2ba" />
+            </div>
+            <div id="slide">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" />
+            </div>
+            <div id="slide">
+                <img src="https://images.unsplash.com/photo-1573164574472-cb89e39749b4" />
+            </div>
+            <div id="slide">
+                <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d" />
+            </div>
+            <div id="slide">
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" />
+            </div>
+            <div id="slide">
+                <img src="https://images.unsplash.com/photo-1593642532973-d31b6557fa68" />
+            </div>
+            <div id="slide">
+                <img src="https://images.unsplash.com/photo-1602526213529-3cdb17229db8" />
+            </div>
+            <div id="slide">
+                <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e" />
+            </div>
+            <div id="slide">
+                <img src="https://images.unsplash.com/photo-1533750349088-cd871a92f312" />
+            </div>
+            <div id="slide">
+                <img src="https://images.unsplash.com/photo-1564865889273-8cbbf8493799" />
+            </div>
+            <div id="slide">
+                <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" />
+            </div>
+            <div id="slide">
+                <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d" />
+            </div>
+            <div id="slide">
+                <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0" />
+            </div>
+            <div id="slide">
+                <img src="https://images.unsplash.com/photo-1515162305286-9e7c9d8c6c3f" />
+            </div>
+            <div id="slide">
+                <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" />
+            </div>
+            <div id="slide">
+                <img src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e" />
+            </div>
+        </div>
+    </div>
+    <h2 id="header">Latest News & Articles</h2>
+        <div id="flexbox">
+            <div id="news-container">
+                <h2>BREAKING NEWS: Buhari is dead!</h2>
+                <span><a href="" style="color: white;">Read more...</a></span><br><br><br>
+                <button>Add a comment</button>
+            </div>
+            <div class="container">
+                <h2>Comments</h2>
+                <div class="comments" id="commentList"></div>
+                <button class="btn" id="openModalBtn">Add Comment</button>
+            </div>
+        </div>
+    <div id="comments">
+            <b>Comments</b>
+            <ul id="commentlist">
+
+            </ul>
+        </div>
+    </div>
+    <div id="modal" style="display:none; position:fixed; top:0; left:0; height:100vh; width:100vw; background:rgba(0,0,0,0.6); justify-content:center; align-items:center;">
+    <div style="background:#fff; padding:20px; border-radius:10px; width:90%; max-width:400px;">
+        <h3>Add a Comment</h3>
+        <input type="text" id="username" placeholder="Your name" style="width:100%; margin-bottom:10px; padding:5px;" />
+        <textarea id="usercomment" placeholder="Your comment" style="width:100%; padding:5px;"></textarea><br><br>
+        <button onclick="submitComment()">Submit</button>
+        <button onclick="closeModal()">Cancel</button>
+    </div>
+</div>
+
+    <script src="blog.js"></script>
+</body>
+</html>
