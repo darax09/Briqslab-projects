@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NATURE'S HERITAGE</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <div class="nav-content">
+      <i class="fa fa-times fa-2x close-btn" aria-hidden="true"></i>
+      <ul>
+        <li><a href="#"><i class="fa fa-home fa-1x" aria-hidden="true" style="margin-right: 5px;"></i>Home</a></li>
+        <li><a href="#"><i class="fa fa-qrcode fa-1x" aria-hidden="true" style="margin-right: 5px;"></i>Dashboard</a></li>
+        <li><a href="#"><i class="fa fa-users fa-1x" aria-hidden="true" style="margin-right: 5px;"></i>Services</a></li>
+        <li><a href="#"><i class="fa fa-phone fa-1x" aria-hidden="true" style="margin-right: 5px;"></i>Contact Us</a></li>
+        <li><a href="#"><i class="fa fa-info fa-1x" aria-hidden="true" style="margin-right: 5px;"></i>About</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div id="toggle">
+    <i class="fa fa-bars fa-2x menu-btn" aria-hidden="true"></i>
+  </div>
+
+  <h1 style="font-size: 30px; text-align: center;"><b>NATURE'S HERITAGE</b></h1>
+    <div class="search-container">
+        <input type="text" placeholder="Search the site..." class="search-input">
+        <button class="search-button"><i class="fa fa-search"></i></button>
+    </div>
+
+  <section class="slider-container">
+    <div class="slider">
+      <img src="https://i.pinimg.com/736x/d2/40/01/d2400139e521003561d93b66e2c4dbc8.jpg" alt="Nature 1">
+      <img src="https://i.pinimg.com/736x/3a/31/28/3a31288f4b9f2eac97336463fdfa78fe.jpg" alt="Nature 2">
+      <img src="https://i.pinimg.com/736x/c7/13/96/c713966a797eacb674bb400efb620d4a.jpg" alt="Nature 3">
+    </div>
+    <button class="prev">❮</button>
+    <button class="next">❯</button>
+  </section>
+
+  <article class="post" id="post1">
+    <h2>Beauty of Forests</h2>
+    <p>Forests are rich in biodiversity and essential for the planet. They offer habitat, filter air, and regulate water cycles.</p>
+    <button class="comment-btn" data-post="post1">Add a comment</button>
+    <div class="comments"></div>
+  </article>
+
+  <article class="post" id="post2">
+    <h2>Mountain Majesty</h2>
+    <p>Mountains rise proudly against the sky, showcasing the strength and stability of Earth's crust and offering peace to wanderers.</p>
+    <button class="comment-btn" data-post="post2">Add a comment</button>
+    <div class="comments"></div>
+  </article>
+
+
+  <div id="commentModal" class="modal-overlay hide">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h3>Add your comment</h3>
+      <form id="commentForm">
+        <input type="text" id="commentName" placeholder="Your name" required>
+        <textarea id="commentText" placeholder="Your comment" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div><br><br><br><br><br><br><br><br><br><br><br><br>
+
+  <footer class="footer">
+  <div class="footer-content">
+    <div class="footer-about">
+      <h3>Nature's Heritage</h3>
+      <p>Preserving the natural wonders of our world and connecting people to the beauty of Earth. Explore, protect, and cherish nature with us.</p>
+    </div>
+    <div class="footer-links">
+      <h4>Our Partners</h4>
+      <ul>
+        <li>EcoVerse Ltd</li>
+        <li>GreenSpark Solutions</li>
+        <li>TerraRoots Initiative</li>
+        <li>WildWorld Network</li>
+        <li>CleanEarth Alliance</li>
+      </ul>
+    </div>
+    <div class="footer-social">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="#"><i class="fa fa-facebook-official"></i></a>
+        <a href="#"><i class="fa fa-twitter-square"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-linkedin-square"></i></a>
+        <a href="#"><i class="fa fa-youtube-play"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Nature's Heritage. All rights reserved.</p>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
